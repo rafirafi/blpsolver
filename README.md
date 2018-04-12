@@ -1,5 +1,7 @@
 linear/integer programing solver
 
+based on https://github.com/dieram3/competitive-programming-library/blob/master/include/cpl/math/simplex.hpp
+
 - slightly reworked the primal simplex to set artificial variables only if necessary
 - added the possibility to use bound for variables
 - added dual simplex (add very little value by itself, used for gomory after primal complete so preconditions don't need to be checked)
